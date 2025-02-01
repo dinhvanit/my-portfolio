@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css  -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <h1>Nguyễn Đình Văn</h1>
+        <p>sinh viên IT năm 2</p>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#skills">Kỹ năng</a></li>
+        <li><a href="#projects">Dự án</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <div class="container">
+        <h2>Giới thiệu</h2>
+        <p>
+          Xin chào! Tôi là Nguyễn Đình Văn, một Lập trình viên với niềm đam mê
+          code web. Tôi có kinh nghiệm trong code web (cụ thể là 30p xem crash
+          course).
+          <br /><a href="https://github.com/dinhvanit" target="_blank"
+            >dinhvanit</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Kỹ năng</h2>
+        <ul>
+          <ul>
+            <li>
+              <strong>Kỹ năng lập trình cơ bản:</strong> OOP, lập trình hướng
+              hàm, cấu trúc dữ liệu & giải thuật, Xử lý đa luồng
+              (Multithreading), Thiết kế và tối ưu mã nguồn
+            </li>
+            <li>
+              <strong>Ngôn ngữ lập trình:</strong> Java, C++, Python, JavaScript
+            </li>
+            <li><strong>Công nghệ & Framework:</strong> React, JavaFX</li>
+            <li><strong>Quản lý cơ sở dữ liệu:</strong> MySQL, SQLlite</li>
+            <li>
+              <strong>DevOps & CI/CD:</strong>
+            </li>
+            <li>
+              <strong>Quản lý mã nguồn & Hợp tác:</strong> Git, GitHub, GitLab
+            </li>
+            <li><strong>Bảo mật & Testing:</strong> Unit Test</li>
+            <li>
+              <strong>Kỹ năng mềm:</strong> Giải quyết vấn đề, làm việc nhóm, tư
+              duy logic
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Dự án</h2>
+        <div class="project">
+          <h3>Dự án 1</h3>
+          <p>Dự án làm game cá nhân bằng c++ và SDL2</p>
+          <a href="https://github.com/dinhvanit/War_Defense" target="_blank"
+            >Link repo github</a
+          >
+          <img src="/img/projectGame.png" alt="" />
+        </div>
+        <div class="project">
+          <h3>Dự án 2</h3>
+          <p>Dự án làm app nhóm LMS với javafx, sql, java...</p>
+          <a
+            href="https://github.com/dinhvanit/LibraryManagement"
+            target="_blank"
+            >Link repo github</a
+          >
+          <img src="/img/projectLMS.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Liên hệ</h2>
+        <form id="contact-form">
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Lời nhắn:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Gửi</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Nguyen Dinh Van. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/768bcc4cd7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
